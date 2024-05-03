@@ -1,0 +1,183 @@
+header { 
+  color: purple;   
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap:nowrap;
+  text-align: center;
+  /* background-color:black ; */
+}
+header h1{
+  background-color: black;
+}
+
+#wabout-me h1 {
+  border-right: 3px solid black;
+}
+.banner img{
+  width: 100%;
+  height:1rem;
+  overflow: hidden;
+  } 
+
+  .works-wrapper{
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+  align-items: center;
+
+  }
+
+  .work-heading{
+      max-width:8rem;
+
+  }
+
+.left1{
+  border-left:3px solid black;
+  padding:5rem;
+
+}
+.big-image{
+max-width:80rem;
+min-width:40rem;
+position:relative;
+z-index: 1;
+}
+.left1 .caption{
+  position: absolute;
+ top:70%;
+ background-color: yellow;
+ z-index: 2;
+ padding:.5rem;
+ border-top-right-radius:5px;
+ border-bottom-right-radius: 5px;
+}
+
+}
+main article, article{
+   display: flex;
+  /*flex-wrap: wrap;
+  flex-grow: 1; */
+  columns: 2;
+  widows: 2;
+  justify-content: space-between;
+  
+
+}
+
+
+.page-section > h1 {
+  border-right: 3px solid black;
+  padding:5rem;
+  text-align: left;
+  align-items: stretch
+
+}
+
+
+/* saving these for if i want to add buttons
+match the STRUCTURE in the gif colors dont matter look up box wires or whatever
+look up "puesdocoding"
+button {
+  font-size: 100%;
+  font-family: cursive;
+  width: 200px;
+  margin: 15px;
+  border: 2px solid ;
+  background-color: ;
+}
+
+button:hover {
+  background-color: ;
+  color:;
+}
+
+button:active {
+  font-size: 110%;
+  box-shadow: 0 0 10px #000 inset;
+
+} */
+
+.navbar{
+display:flex;
+gap:1rem;
+justify-content: center;
+
+}
+
+.navbar li{
+list-style: none;
+}
+header nav{
+  padding: 1rem;
+  text-align: right;
+}
+
+section ul{
+  font-family: cursive;
+  
+
+}
+
+aside img {
+display: flex; 
+padding: 1px;
+flex-direction: column;
+padding: 1px;
+border: solid blue;
+margin-left: 59px;
+  
+  /* columns: 2;
+  widows: 2; */
+}
+
+.works1{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.small-image, .small-image2, .small-image3, .small-image4 {
+  max-width:50rem;
+  min-width:23rem;
+}
+
+img{
+  width:100%;
+
+}
+
+footer td{
+  color:blue;
+  text-decoration: underline;
+}
+
+.page-section {    
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 2rem;
+ 
+  
+}
+
+@media screen  and (max-width:900px) {
+.page-section {
+  flex-direction: column;
+}
+.work-heading {
+  text-align: center;
+}
+  
+.left1 {
+  border-left:none;
+  border-top:3px solid black;
+}
+}
+
+html {
+background-color: skyblue;
+}
