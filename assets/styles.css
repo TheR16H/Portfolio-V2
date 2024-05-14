@@ -193,3 +193,26 @@ footer td{
 html {
 background-color: skyblue;
 }
+
+.caption2, .caption2, .caption3, .caption4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-wrap: anywhere;
+  line-height: 1;
+  font-size: 0.625rem;
+  padding: 0 0.125rem;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  /* width: inherit; */
+  height: auto;
+  min-height: 1.4rem;
+  background-color: yellow;
+  bottom: 1.4rem;
+  border-collapse: collapse;
+  color: black;
+  
+
+}
