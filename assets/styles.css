@@ -24,6 +24,26 @@ header {
   overflow: hidden;
   } 
 
+  #banner {
+    position: relative;
+  }
+
+h2{
+  position: absolute;
+  text-decoration: underline;
+  top:70%;
+  left:64%;
+  transform: translate(-50%, -50%);  
+  color: white;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+h2:hover {
+  background-color: purple;
+}
+
+
   .works-wrapper{
   display:flex;
   flex-direction:column;

@@ -2,7 +2,7 @@
 
 ## Description 
 This site is a catalog of some of my best work (up to this point! it's a WIP)
-[Portfolio](https://ther16h.github.io/Portfolio-V2/)
+<br> This is the current state of the  [Portfolio](https://ther16h.github.io/Portfolio-V2/) 
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This site is a catalog of some of my best work (up to this point! it's a WIP)
 - [License](#license)
 
 ## Visuals
-![ScreenShot1](./assets/images/SS3.png)
+![ScreenShot1](./assets/images/SS5.png)
 ![ScreenShot2](./assets/images/SS4.png)
 
 ## Support
