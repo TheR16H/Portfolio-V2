@@ -1,9 +1,14 @@
+html{ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 header { 
   color: purple;   
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap:nowrap;
   text-align: center;
 }
@@ -14,8 +19,9 @@ header {
  align-items: start;
 }
 
-#wabout-me h1 {
-  border-right: 3px solid black;
+header h1 {
+/* margin left:px; */
+padding-right: 50%;
 }
 
 .banner img{
@@ -31,12 +37,12 @@ header {
 h2{
   position: absolute;
   text-decoration: underline;
-  top:70%;
-  left:64%;
-  transform: translate(-50%, -50%);  
+  top:80%;
+  left:65%;
+  /* transform: translate(-50%, -50%);   */
   color: white;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 h2:hover {

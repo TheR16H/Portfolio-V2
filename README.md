@@ -14,8 +14,8 @@ This site is a catalog of some of my best work (up to this point! it's a WIP)
 - [License](#license)
 
 ## Visuals
-![ScreenShot1](./assets/images/SS5.png)
-![ScreenShot2](./assets/images/SS4.png)
+![ScreenShot1](./assets/images/SS6.png)
+![ScreenShot2](./assets/images/SS7.png)
 
 ## Support
 
