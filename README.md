@@ -1,7 +1,7 @@
 # Catalog of Serendipitous Outcomes
 
 ## Description 
-This site is a catalog of some of my best work. 
+This site is a catalog of some of my best work (up to this point! it's a WIP)
 [Portfolio](https://ther16h.github.io/Portfolio-V2/)
 
 ## Table of Contents
@@ -9,20 +9,23 @@ This site is a catalog of some of my best work.
 - [Support](#support)
 - [Visuals](#visuals)
 - [Roadmap](#roadmap)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
+- [Change Log](#change-log)
 - [License](#license)
 
 ## Visuals
-![ScreenShot1](https://github.com/TheR16H/Portfolio-V2/blob/main/assets/images/SS1.png)
-![ScreenShot2](https://github.com/TheR16H/Portfolio-V2/blob/main/assets/images/SS2.png)
+![ScreenShot1](./assets/images/SS3.png)
+![ScreenShot2](./assets/images/SS4.png)
 
 ## Support
 
 ## Roadmap
 As time goes on I intend to update this site with various additions of thing's i've done / am capable of.
 
-## Contributing
+## Contributions
 No contributions will be accepts nor will be needed for this project.
+
+## Change Log
 
 ## License
 MIT License

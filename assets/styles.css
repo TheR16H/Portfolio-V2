@@ -6,18 +6,21 @@ header {
   justify-content: space-between;
   flex-wrap:nowrap;
   text-align: center;
-  /* background-color:black ; */
 }
-header h1{
-  background-color: black;
+
+.logo {
+  width:8%;
+  height:8%;
+ align-items: start;
 }
 
 #wabout-me h1 {
   border-right: 3px solid black;
 }
+
 .banner img{
   width: 100%;
-  height:1rem;
+  height:10%;
   overflow: hidden;
   } 
 
@@ -39,6 +42,7 @@ header h1{
   padding:5rem;
 
 }
+
 .big-image{
 max-width:80rem;
 min-width:40rem;
@@ -48,25 +52,13 @@ z-index: 1;
 .left1 .caption{
   position: absolute;
  top:70%;
+ /* color: ; */
  background-color: yellow;
  z-index: 2;
  padding:.5rem;
  border-top-right-radius:5px;
  border-bottom-right-radius: 5px;
 }
-
-
-/* .small-image .caption2{
-   z-index: 100;
-  position: absolute; 
-  display:inline-block;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: yellow;
-} */
-
-
 
 main article, article{
    display: flex;
@@ -88,29 +80,23 @@ main article, article{
 
 }
 
-
-/* saving these for if i want to add buttons
-match the STRUCTURE in the gif colors dont matter look up box wires or whatever
-look up "puesdocoding"
-button {
-  font-size: 100%;
-  font-family: cursive;
-  width: 200px;
-  margin: 15px;
-  border: 2px solid ;
-  background-color: ;
+.button {
+  display: inline-block;
+  padding: 1px 0px;
+  font-size: medium;
+  /* background-color: blue; */
+  color: black;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
-button:hover {
-  background-color: ;
-  color:;
+.button:hover {
+  background-color:purple ;
+  color:black;
 }
 
-button:active {
-  font-size: 110%;
-  box-shadow: 0 0 10px #000 inset;
-
-} */
 
 .navbar{
 display:flex;
@@ -133,28 +119,37 @@ section ul{
 
 }
 
-aside img {
-display: flex; 
-padding: 1px;
-flex-direction: column;
-padding: 1px;
-border: solid blue;
-margin-left: 59px;
-  
-  /* columns: 2;
-  widows: 2; */
-}
 
-.works1{
+.works1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap:2rem;
+  gap: 2rem;
 }
 
+
 .small-image, .small-image2, .small-image3, .small-image4 {
-  max-width:50rem;
-  min-width:23rem;
+  position: relative;
+  width: 40%; 
+  margin-left: 5%;
+  height: 20%;
+}
+
+.caption2, .caption3, .caption4, .caption5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: yellow;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}
+
+.caption2:hover, .caption3:hover, .caption4:hover, .caption5:hover {
+  background-color: purple; /* Change background color on hover */
+  color: black; 
 }
 
 img{
@@ -194,25 +189,19 @@ html {
 background-color: skyblue;
 }
 
-.caption2, .caption2, .caption3, .caption4{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-wrap: anywhere;
-  line-height: 1;
-  font-size: 0.625rem;
-  padding: 0 0.125rem;
-  font-weight: bold;
-  text-align: center;
-  position: relative;
-  /* width: inherit; */
-  height: auto;
-  min-height: 1.4rem;
-  background-color: yellow;
-  bottom: 1.4rem;
-  border-collapse: collapse;
-  color: black;
-  
 
+.contact-buttons {
+  display: flex;
+}
+
+.contact-button {
+  margin-right: 200px; /* Adjust spacing between buttons */
+  padding: 5px 10px;
+  color: black; /* Button text color */
+  text-decoration: none; /* Remove underline from links */
+  display: inline-block; /* Display buttons inline */
+}
+
+.contact-button:hover {
+  background-color: purple; /* Change background color on hover */
 }
